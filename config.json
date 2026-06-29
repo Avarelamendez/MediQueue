@@ -1,0 +1,94 @@
+{
+  "nombre": "San Pedro",
+  "cantidadSalas": 3,
+  "cantidadConsultorios": 2,
+  "cantidadSalasEmergencia": 1,
+  "salas": {
+    "frente": {
+      "dato": {
+        "numero": 1,
+        "tipo": "PREFERENCIAL",
+        "capacidad": 10
+      },
+      "siguiente": {
+        "dato": {
+          "numero": 2,
+          "tipo": "EMERGENCIA_CRITICA",
+          "capacidad": 5
+        },
+        "siguiente": {
+          "dato": {
+            "numero": 3,
+            "tipo": "NORMAL",
+            "capacidad": 15
+          }
+        }
+      }
+    },
+    "fin": {
+      "dato": {
+        "numero": 3,
+        "tipo": "NORMAL",
+        "capacidad": 15
+      }
+    }
+  },
+  "consultorios": {
+    "frente": {
+      "dato": {
+        "numero": 1,
+        "tipo": "PREFERENCIAL",
+        "capacidad": 1,
+        "especialidad": "Preferencial"
+      },
+      "siguiente": {
+        "dato": {
+          "numero": 2,
+          "tipo": "NORMAL",
+          "capacidad": 1,
+          "especialidad": "General"
+        }
+      }
+    },
+    "fin": {
+      "dato": {
+        "numero": 2,
+        "tipo": "NORMAL",
+        "capacidad": 1,
+        "especialidad": "General"
+      }
+    }
+  },
+  "usuarios": {
+    "frente": {
+      "dato": {
+        "nombre": "valeria",
+        "contrasena": "valeria123"
+      },
+      "siguiente": {
+        "dato": {
+          "nombre": "brandon",
+          "contrasena": "brandon123"
+        },
+        "siguiente": {
+          "dato": {
+            "nombre": "geanca",
+            "contrasena": "geanca123"
+          },
+          "siguiente": {
+            "dato": {
+              "nombre": "adrian",
+              "contrasena": "adrian123"
+            }
+          }
+        }
+      }
+    },
+    "fin": {
+      "dato": {
+        "nombre": "adrian",
+        "contrasena": "adrian123"
+      }
+    }
+  }
+}
